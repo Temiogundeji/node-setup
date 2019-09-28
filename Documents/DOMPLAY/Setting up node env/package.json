@@ -1,0 +1,27 @@
+{
+  "name": "node-setup",
+  "version": "1.0.0",
+  "description": "This is to setup git and node",
+  "main": "index.html",
+  "scripts": {
+    "start":"npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite":"lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Temiogundeji/node-setup.git"
+  },
+  "keywords": [
+    "Temiogundeji"
+  ],
+  "author": "Temiogundeji",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Temiogundeji/node-setup/issues"
+  },
+  "homepage": "https://github.com/Temiogundeji/node-setup#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
